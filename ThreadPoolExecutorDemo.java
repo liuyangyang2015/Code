@@ -17,6 +17,10 @@ public class ThreadPoolExecutorDemo extends ThreadPoolExecutor {
                 1,
                 TimeUnit.SECONDS,
                 new LinkedBlockingQueue<Runnable>());
+        super(3, 5,
+                60,
+                TimeUnit.SECONDS,
+                new LinkedBlockingQueue<Runnable>(3),new DiscardPolicy());
     }
 
     public static void main(String[] args) {
@@ -27,6 +31,28 @@ public class ThreadPoolExecutorDemo extends ThreadPoolExecutor {
                 System.out.println("hi");
             }
         });
+        
+        for (int i=1;i<10;i++)
+        {
+            demo1.execute(new Runnable() {
+                @Override
+                public void run() {
+
+                    System.out.println("hi");
+                    try {
+                        Thread.sleep(6000000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println("***");
+                }
+            });
+        }
+
+        System.out.println(demo1.getActiveCount());
+        System.out.println(demo1.getQueue().size());
+        
+        
         demo1.shutdown();
     }
 }
