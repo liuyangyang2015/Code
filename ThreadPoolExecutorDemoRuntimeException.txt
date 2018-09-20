@@ -60,8 +60,7 @@ public class ThreadPoolExecutorDemo extends ThreadPoolExecutor {
     }
 }
 
-"C:\Program Files\Java\jdk1.8.0_91\bin\java" -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:51737,suspend=y,server=n -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;D:\Repositories\ota\tongye-ota-api\ota-parent\ota-service\target\test-classes;D:\Repositories\ota\tongye-ota-api\ota-parent\ota-service\target\classes;D:\apache-maven-3.3.9\myrepo\junit\junit\3.8.1\junit-3.8.1.jar;D:\Repositories\ota\tongye-ota-api\ota-parent\ota-dao\target\classes;D:\Repositories\ota\tongye-ota-api\ota-parent\ota-model\target\classes;D:\apache-maven-3.3.9\myrepo\org\springframework\boot\spring-boot-starter-web\1.5.4.RELEASE\spring-boot-starter-web-1.5.4.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\boot\spring-boot-starter\1.5.4.RELEASE\spring-boot-starter-1.5.4.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\boot\spring-boot\1.5.4.RELEASE\spring-boot-1.5.4.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\boot\spring-boot-autoconfigure\1.5.4.RELEASE\spring-boot-autoconfigure-1.5.4.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\spring-web\4.3.9.RELEASE\spring-web-4.3.9.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\spring-beans\4.3.9.RELEASE\spring-beans-4.3.9.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\spring-context\4.3.9.RELEASE\spring-context-4.3.9.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\spring-webmvc\4.3.9.RELEASE\spring-webmvc-4.3.9.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\spring-expression\4.3.9.RELEASE\spring-expression-4.3.9.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\boot\spring-boot-starter-test\1.5.4.RELEASE\spring-boot-starter-test-1.5.4.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\boot\spring-boot-test\1.5.4.RELEASE\spring-boot-test-1.5.4.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\boot\spring-boot-test-autoconfigure\1.5.4.RELEASE\spring-boot-test-autoconfigure-1.5.4.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\mockito\mockito-core\1.10.19\mockito-core-1.10.19.jar;D:\apache-maven-3.3.9\myrepo\org\objenesis\objenesis\2.1\objenesis-2.1.jar;D:\apache-maven-3.3.9\myrepo\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\apache-maven-3.3.9\myrepo\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;D:\apache-maven-3.3.9\myrepo\org\skyscreamer\jsonassert\1.4.0\jsonassert-1.4.0.jar;D:\apache-maven-3.3.9\myrepo\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\spring-core\4.3.9.RELEASE\spring-core-4.3.9.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\spring-test\4.3.9.RELEASE\spring-test-4.3.9.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\boot\spring-boot-starter-aop\1.5.4.RELEASE\spring-boot-starter-aop-1.5.4.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\spring-aop\4.3.9.RELEASE\spring-aop-4.3.9.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\aspectj\aspectjweaver\1.8.10\aspectjweaver-1.8.10.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\boot\spring-boot-starter-data-jpa\1.5.4.RELEASE\spring-boot-starter-data-jpa-1.5.4.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\hibernate\hibernate-core\5.0.12.Final\hibernate-core-5.0.12.Final.jar;D:\apache-maven-3.3.9\myrepo\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;D:\apache-maven-3.3.9\myrepo\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;D:\apache-maven-3.3.9\myrepo\antlr\antlr\2.7.7\antlr-2.7.7.jar;D:\apache-maven-3.3.9\myrepo\org\jboss\jandex\2.0.0.Final\jandex-2.0.0.Final.jar;D:\apache-maven-3.3.9\myrepo\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;D:\apache-maven-3.3.9\myrepo\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;D:\apache-maven-3.3.9\myrepo\org\hibernate\hibernate-entitymanager\5.0.12.Final\hibernate-entitymanager-5.0.12.Final.jar;D:\apache-maven-3.3.9\myrepo\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\data\spring-data-jpa\1.11.4.RELEASE\spring-data-jpa-1.11.4.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\data\spring-data-commons\1.13.4.RELEASE\spring-data-commons-1.13.4.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\spring-orm\4.3.9.RELEASE\spring-orm-4.3.9.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\spring-tx\4.3.9.RELEASE\spring-tx-4.3.9.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\spring-aspects\4.3.9.RELEASE\spring-aspects-4.3.9.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\boot\spring-boot-starter-jdbc\1.5.4.RELEASE\spring-boot-starter-jdbc-1.5.4.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\apache\tomcat\tomcat-jdbc\8.5.15\tomcat-jdbc-8.5.15.jar;D:\apache-maven-3.3.9\myrepo\org\apache\tomcat\tomcat-juli\8.5.15\tomcat-juli-8.5.15.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\spring-jdbc\4.3.9.RELEASE\spring-jdbc-4.3.9.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\mybatis\spring\boot\mybatis-spring-boot-starter\1.3.0\mybatis-spring-boot-starter-1.3.0.jar;D:\apache-maven-3.3.9\myrepo\org\mybatis\spring\boot\mybatis-spring-boot-autoconfigure\1.3.0\mybatis-spring-boot-autoconfigure-1.3.0.jar;D:\apache-maven-3.3.9\myrepo\org\mybatis\mybatis\3.4.4\mybatis-3.4.4.jar;D:\apache-maven-3.3.9\myrepo\org\mybatis\mybatis-spring\1.3.1\mybatis-spring-1.3.1.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\boot\spring-boot-starter-log4j2\1.5.4.RELEASE\spring-boot-starter-log4j2-1.5.4.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\apache\logging\log4j\log4j-slf4j-impl\2.7\log4j-slf4j-impl-2.7.jar;D:\apache-maven-3.3.9\myrepo\org\apache\logging\log4j\log4j-api\2.7\log4j-api-2.7.jar;D:\apache-maven-3.3.9\myrepo\org\apache\logging\log4j\log4j-core\2.7\log4j-core-2.7.jar;D:\apache-maven-3.3.9\myrepo\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;D:\apache-maven-3.3.9\myrepo\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;D:\apache-maven-3.3.9\myrepo\mysql\mysql-connector-java\5.1.42\mysql-connector-java-5.1.42.jar;D:\apache-maven-3.3.9\myrepo\com\github\pagehelper\pagehelper\4.0.0\pagehelper-4.0.0.jar;D:\apache-maven-3.3.9\myrepo\com\github\jsqlparser\jsqlparser\0.9.1\jsqlparser-0.9.1.jar;D:\apache-maven-3.3.9\myrepo\io\springfox\springfox-swagger2\2.2.2\springfox-swagger2-2.2.2.jar;D:\apache-maven-3.3.9\myrepo\org\mapstruct\mapstruct\1.0.0.CR1\mapstruct-1.0.0.CR1.jar;D:\apache-maven-3.3.9\myrepo\io\swagger\swagger-annotations\1.5.3\swagger-annotations-1.5.3.jar;D:\apache-maven-3.3.9\myrepo\io\swagger\swagger-models\1.5.3\swagger-models-1.5.3.jar;D:\apache-maven-3.3.9\myrepo\io\springfox\springfox-spi\2.2.2\springfox-spi-2.2.2.jar;D:\apache-maven-3.3.9\myrepo\io\springfox\springfox-core\2.2.2\springfox-core-2.2.2.jar;D:\apache-maven-3.3.9\myrepo\io\springfox\springfox-schema\2.2.2\springfox-schema-2.2.2.jar;D:\apache-maven-3.3.9\myrepo\io\springfox\springfox-swagger-common\2.2.2\springfox-swagger-common-2.2.2.jar;D:\apache-maven-3.3.9\myrepo\io\springfox\springfox-spring-web\2.2.2\springfox-spring-web-2.2.2.jar;D:\apache-maven-3.3.9\myrepo\com\fasterxml\classmate\1.3.3\classmate-1.3.3.jar;D:\apache-maven-3.3.9\myrepo\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\apache-maven-3.3.9\myrepo\org\aspectj\aspectjrt\1.8.10\aspectjrt-1.8.10.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\plugin\spring-plugin-core\1.2.0.RELEASE\spring-plugin-core-1.2.0.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\plugin\spring-plugin-metadata\1.2.0.RELEASE\spring-plugin-metadata-1.2.0.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\hateoas\spring-hateoas\0.23.0.RELEASE\spring-hateoas-0.23.0.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\io\springfox\springfox-swagger-ui\2.2.2\springfox-swagger-ui-2.2.2.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\boot\spring-boot-starter-tomcat\1.5.4.RELEASE\spring-boot-starter-tomcat-1.5.4.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\apache\tomcat\embed\tomcat-embed-core\8.5.15\tomcat-embed-core-8.5.15.jar;D:\apache-maven-3.3.9\myrepo\org\apache\tomcat\embed\tomcat-embed-el\8.5.15\tomcat-embed-el-8.5.15.jar;D:\apache-maven-3.3.9\myrepo\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.15\tomcat-embed-websocket-8.5.15.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\boot\spring-boot-starter-actuator\1.5.4.RELEASE\spring-boot-starter-actuator-1.5.4.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\boot\spring-boot-actuator\1.5.4.RELEASE\spring-boot-actuator-1.5.4.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\apache\tomcat\embed\tomcat-embed-jasper\8.5.15\tomcat-embed-jasper-8.5.15.jar;D:\apache-maven-3.3.9\myrepo\org\eclipse\jdt\ecj\3.12.3\ecj-3.12.3.jar;D:\apache-maven-3.3.9\myrepo\javax\servlet\jstl\1.2\jstl-1.2.jar;D:\apache-maven-3.3.9\myrepo\com\google\code\gson\gson\2.8.1\gson-2.8.1.jar;D:\apache-maven-3.3.9\myrepo\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;D:\apache-maven-3.3.9\myrepo\org\hibernate\hibernate-validator\5.1.3.Final\hibernate-validator-5.1.3.Final.jar;D:\apache-maven-3.3.9\myrepo\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;D:\apache-maven-3.3.9\myrepo\com\google\guava\guava\18.0\guava-18.0.jar;D:\apache-maven-3.3.9\myrepo\com\github\rholder\guava-retrying\2.0.0\guava-retrying-2.0.0.jar;D:\apache-maven-3.3.9\myrepo\com\google\code\findbugs\jsr305\2.0.2\jsr305-2.0.2.jar;D:\apache-maven-3.3.9\myrepo\com\jayway\jsonpath\json-path\2.2.0\json-path-2.2.0.jar;D:\apache-maven-3.3.9\myrepo\net\minidev\json-smart\2.2.1\json-smart-2.2.1.jar;D:\apache-maven-3.3.9\myrepo\net\minidev\accessors-smart\1.1\accessors-smart-1.1.jar;D:\apache-maven-3.3.9\myrepo\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;D:\apache-maven-3.3.9\myrepo\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;D:\apache-maven-3.3.9\myrepo\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar;D:\apache-maven-3.3.9\myrepo\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;D:\apache-maven-3.3.9\myrepo\joda-time\joda-time\2.9.9\joda-time-2.9.9.jar;D:\apache-maven-3.3.9\myrepo\com\alibaba\fastjson\1.2.41\fastjson-1.2.41.jar;D:\apache-maven-3.3.9\myrepo\com\dangdang\elastic-job-lite-core\2.1.5\elastic-job-lite-core-2.1.5.jar;D:\apache-maven-3.3.9\myrepo\com\dangdang\elastic-job-lite-spring\2.1.5\elastic-job-lite-spring-2.1.5.jar;D:\apache-maven-3.3.9\myrepo\com\dangdang\elastic-job-common-core\2.1.5\elastic-job-common-core-2.1.5.jar;D:\apache-maven-3.3.9\myrepo\org\apache\curator\curator-framework\2.10.0\curator-framework-2.10.0.jar;D:\apache-maven-3.3.9\myrepo\org\apache\curator\curator-client\2.10.0\curator-client-2.10.0.jar;D:\apache-maven-3.3.9\myrepo\org\apache\zookeeper\zookeeper\3.4.6\zookeeper-3.4.6.jar;D:\apache-maven-3.3.9\myrepo\log4j\log4j\1.2.16\log4j-1.2.16.jar;D:\apache-maven-3.3.9\myrepo\jline\jline\0.9.94\jline-0.9.94.jar;D:\apache-maven-3.3.9\myrepo\io\netty\netty\3.7.0.Final\netty-3.7.0.Final.jar;D:\apache-maven-3.3.9\myrepo\org\apache\curator\curator-recipes\2.10.0\curator-recipes-2.10.0.jar;D:\apache-maven-3.3.9\myrepo\org\quartz-scheduler\quartz\2.2.1\quartz-2.2.1.jar;D:\apache-maven-3.3.9\myrepo\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;D:\apache-maven-3.3.9\myrepo\org\json\json\20170516\json-20170516.jar;D:\apache-maven-3.3.9\myrepo\com\fasterxml\jackson\core\jackson-databind\2.8.8\jackson-databind-2.8.8.jar;D:\apache-maven-3.3.9\myrepo\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;D:\apache-maven-3.3.9\myrepo\com\fasterxml\jackson\core\jackson-core\2.8.8\jackson-core-2.8.8.jar;D:\apache-maven-3.3.9\myrepo\net\sf\json-lib\json-lib\2.4\json-lib-2.4-jdk15.jar;D:\apache-maven-3.3.9\myrepo\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;D:\apache-maven-3.3.9\myrepo\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;D:\apache-maven-3.3.9\myrepo\commons-lang\commons-lang\2.5\commons-lang-2.5.jar;D:\apache-maven-3.3.9\myrepo\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;D:\apache-maven-3.3.9\myrepo\net\sf\ezmorph\ezmorph\1.0.6\ezmorph-1.0.6.jar;D:\apache-maven-3.3.9\myrepo\javax\mail\mail\1.4.7\mail-1.4.7.jar;D:\apache-maven-3.3.9\myrepo\javax\activation\activation\1.1\activation-1.1.jar;D:\apache-maven-3.3.9\myrepo\com\whalin\Memcached-Java-Client\3.0.2\Memcached-Java-Client-3.0.2.jar;D:\apache-maven-3.3.9\myrepo\commons-pool\commons-pool\1.6\commons-pool-1.6.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\boot\spring-boot-starter-redis\1.4.7.RELEASE\spring-boot-starter-redis-1.4.7.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\data\spring-data-redis\1.8.4.RELEASE\spring-data-redis-1.8.4.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\data\spring-data-keyvalue\1.2.4.RELEASE\spring-data-keyvalue-1.2.4.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\spring-oxm\4.3.9.RELEASE\spring-oxm-4.3.9.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;D:\apache-maven-3.3.9\myrepo\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\boot\spring-boot-starter-freemarker\1.5.4.RELEASE\spring-boot-starter-freemarker-1.5.4.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\freemarker\freemarker\2.3.26-incubating\freemarker-2.3.26-incubating.jar;D:\apache-maven-3.3.9\myrepo\org\springframework\spring-context-support\4.3.9.RELEASE\spring-context-support-4.3.9.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\cglib\cglib\3.2.6\cglib-3.2.6.jar;D:\apache-maven-3.3.9\myrepo\org\ow2\asm\asm\6.0\asm-6.0.jar;D:\apache-maven-3.3.9\myrepo\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;D:\apache-maven-3.3.9\myrepo\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;D:\apache-maven-3.3.9\myrepo\com\alitrip\order\1.2\order-1.2.jar;D:\apache-maven-3.3.9\myrepo\org\assertj\assertj-core\1.7.1\assertj-core-1.7.1.jar;D:\apache-maven-3.3.9\myrepo\org\apache\poi\poi\3.17\poi-3.17.jar;D:\apache-maven-3.3.9\myrepo\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;D:\apache-maven-3.3.9\myrepo\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;D:\apache-maven-3.3.9\myrepo\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;D:\apache-maven-3.3.9\myrepo\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;D:\apache-maven-3.3.9\myrepo\stax\stax-api\1.0.1\stax-api-1.0.1.jar;D:\apache-maven-3.3.9\myrepo\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;D:\apache-maven-3.3.9\myrepo\org\redisson\redisson\3.7.2\redisson-3.7.2.jar;D:\apache-maven-3.3.9\myrepo\io\netty\netty-common\4.1.25.Final\netty-common-4.1.25.Final.jar;D:\apache-maven-3.3.9\myrepo\io\netty\netty-codec\4.1.25.Final\netty-codec-4.1.25.Final.jar;D:\apache-maven-3.3.9\myrepo\io\netty\netty-buffer\4.1.25.Final\netty-buffer-4.1.25.Final.jar;D:\apache-maven-3.3.9\myrepo\io\netty\netty-transport\4.1.25.Final\netty-transport-4.1.25.Final.jar;D:\apache-maven-3.3.9\myrepo\io\netty\netty-resolver\4.1.25.Final\netty-resolver-4.1.25.Final.jar;D:\apache-maven-3.3.9\myrepo\io\netty\netty-resolver-dns\4.1.25.Final\netty-resolver-dns-4.1.25.Final.jar;D:\apache-maven-3.3.9\myrepo\io\netty\netty-codec-dns\4.1.25.Final\netty-codec-dns-4.1.25.Final.jar;D:\apache-maven-3.3.9\myrepo\io\netty\netty-handler\4.1.25.Final\netty-handler-4.1.25.Final.jar;D:\apache-maven-3.3.9\myrepo\javax\cache\cache-api\1.0.0\cache-api-1.0.0.jar;D:\apache-maven-3.3.9\myrepo\io\projectreactor\reactor-core\2.0.8.RELEASE\reactor-core-2.0.8.RELEASE.jar;D:\apache-maven-3.3.9\myrepo\org\reactivestreams\reactive-streams\1.0.0\reactive-streams-1.0.0.jar;D:\apache-maven-3.3.9\myrepo\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.8.8\jackson-dataformat-yaml-2.8.8.jar;D:\apache-maven-3.3.9\myrepo\net\bytebuddy\byte-buddy\1.8.11\byte-buddy-1.8.11.jar;D:\apache-maven-3.3.9\myrepo\org\jodd\jodd-bean\3.7.1\jodd-bean-3.7.1.jar;D:\apache-maven-3.3.9\myrepo\org\jodd\jodd-core\3.7.1\jodd-core-3.7.1.jar;D:\apache-maven-3.3.9\myrepo\com\banma\invoking-statistic\1.0.0\invoking-statistic-1.0.0.jar;D:\apache-maven-3.3.9\myrepo\com\googlecode\xmemcached\xmemcached\2.4.4\xmemcached-2.4.4.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2017.2.1\lib\idea_rt.jar" org.ota.service.ThreadPoolExecutorDemo
-Connected to the target VM, address: '127.0.0.1:51737', transport: 'socket'
+
 Exception in thread "pool-1-thread-1" java.lang.RuntimeException: 123pool-1-thread-1
 	at org.ota.service.ThreadPoolExecutorDemo$2.run(ThreadPoolExecutorDemo.java:44)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
@@ -101,3 +100,111 @@ aiaimain
 5
 3
 
+
+package org.ota.service;
+
+import java.util.concurrent.*;
+
+/**
+ * 描述：
+ *
+ * @author liuyangyang
+ * @create 2018-09-19 15:57
+ **/
+public class ThreadPoolExecutorDemo extends ThreadPoolExecutor {
+    public static volatile Integer num = 1;
+    public ThreadPoolExecutorDemo() {
+//        super(3, 5,
+//                60,
+//                TimeUnit.SECONDS,
+//                new LinkedBlockingQueue<Runnable>(3));
+//        super(3, 5,
+//                60,
+//                TimeUnit.SECONDS,
+//                new LinkedBlockingQueue<Runnable>(3),new DiscardPolicy());
+        super(3, 5,
+                60,
+                TimeUnit.SECONDS,
+                new LinkedBlockingQueue<Runnable>(3),new RejectedExecutionHandler()
+                {
+                    public void rejectedExecution(Runnable r, ThreadPoolExecutor executor) {
+                        System.out.println("aiai"+Thread.currentThread().getName());
+                    }
+                });
+    }
+
+    public static void main(String[] args) {
+
+        ThreadPoolExecutorDemo demo1=new ThreadPoolExecutorDemo();
+
+        try{
+            for (int i=1;i<20;i++)
+            {
+                demo1.execute(new Runnable() {
+                    @Override
+                    public void run() {
+
+                        if(num <= 5)
+                        {
+                            num++;
+                            throw  new RuntimeException("123"+Thread.currentThread().getName());
+                        }
+                        System.out.println("hi");
+                        try {
+                            Thread.sleep(6000000);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                        System.out.println("***");
+                    }
+                });
+            }
+        }catch (Exception e)
+        {
+            System.out.println("error"+e);
+        }
+
+        System.out.println(demo1.getActiveCount());
+        System.out.println(demo1.getQueue().size());
+
+        demo1.shutdown();
+    }
+}
+Exception in thread "pool-1-thread-1" Exception in thread "pool-1-thread-3" Exception in thread "pool-1-thread-4" Exception in thread "pool-1-thread-5" java.lang.RuntimeException: 123pool-1-thread-5
+	at org.ota.service.ThreadPoolExecutorDemo$2.run(ThreadPoolExecutorDemo.java:47)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Exception in thread "pool-1-thread-2" java.lang.RuntimeException: 123pool-1-thread-2
+	at org.ota.service.ThreadPoolExecutorDemo$2.run(ThreadPoolExecutorDemo.java:47)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.RuntimeException: 123pool-1-thread-1
+	at org.ota.service.ThreadPoolExecutorDemo$2.run(ThreadPoolExecutorDemo.java:47)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.RuntimeException: 123pool-1-thread-3
+	at org.ota.service.ThreadPoolExecutorDemo$2.run(ThreadPoolExecutorDemo.java:47)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)hi
+hi
+aiaimain
+hi
+
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+java.lang.RuntimeException: 123pool-1-thread-4
+	at org.ota.service.ThreadPoolExecutorDemo$2.run(ThreadPoolExecutorDemo.java:47)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+hi
+hi
+aiaimain
+aiaimain
+aiaimain
+aiaimain
+aiaimain
+5
+3
