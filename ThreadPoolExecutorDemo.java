@@ -1,9 +1,6 @@
 package org.ota.service;
 
-import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.LinkedBlockingQueue;
-import java.util.concurrent.ThreadPoolExecutor;
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.*;
 
 /**
  * 描述：
@@ -12,27 +9,29 @@ import java.util.concurrent.TimeUnit;
  * @create 2018-09-19 15:57
  **/
 public class ThreadPoolExecutorDemo extends ThreadPoolExecutor {
-    public ThreadPoolExecutor() {
-        super(1, 1,
-                1,
-                TimeUnit.SECONDS,
-                new LinkedBlockingQueue<Runnable>());
+    public ThreadPoolExecutorDemo() {
+//        super(3, 5,
+//                60,
+//                TimeUnit.SECONDS,
+//                new LinkedBlockingQueue<Runnable>(3));
+//        super(3, 5,
+//                60,
+//                TimeUnit.SECONDS,
+//                new LinkedBlockingQueue<Runnable>(3),new DiscardPolicy());
         super(3, 5,
                 60,
                 TimeUnit.SECONDS,
-                new LinkedBlockingQueue<Runnable>(3),new DiscardPolicy());
+                new LinkedBlockingQueue<Runnable>(3),new RejectedExecutionHandler()
+                {
+                    public void rejectedExecution(Runnable r, ThreadPoolExecutor executor) {
+                        System.out.println("aiai");
+                    }
+                });
     }
 
     public static void main(String[] args) {
-        ThreadPoolExecutor demo1=new ThreadPoolExecutor();
-        demo1.execute(new Runnable() {
-            @Override
-            public void run() {
-                System.out.println("hi");
-            }
-        });
-        
-        for (int i=1;i<10;i++)
+        ThreadPoolExecutorDemo demo1=new ThreadPoolExecutorDemo();
+        for (int i=1;i<12;i++)
         {
             demo1.execute(new Runnable() {
                 @Override
@@ -51,8 +50,17 @@ public class ThreadPoolExecutorDemo extends ThreadPoolExecutor {
 
         System.out.println(demo1.getActiveCount());
         System.out.println(demo1.getQueue().size());
-        
-        
         demo1.shutdown();
     }
 }
+
+hi
+hi
+hi
+hi
+hi
+aiai
+aiai
+aiai
+5
+3
