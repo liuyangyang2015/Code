@@ -1,0 +1,10 @@
+try{
+            ExecutorService exec1 = Executors.newCachedThreadPool();
+            Callable<String> runnable = new CallableThread2();
+            Future<String> future= exec1.submit(runnable);
+            future.get();
+        }
+        catch (Exception e)
+        {
+            System.out.println("error2:   "+e);
+        }
