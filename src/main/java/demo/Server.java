@@ -24,7 +24,7 @@ public class Server {
 
 	public static void main(String[] args) throws Exception {
 		//1.创建ServerSocket
-		ServerSocket server = new ServerSocket(80);
+		ServerSocket server = new ServerSocket(443);
 
 		System.out.println("服务器已经启动成功....");
 
@@ -35,6 +35,8 @@ public class Server {
 			//3.读取本地的test.html文件
 			FileInputStream in = new FileInputStream(new File("C:\\Users\\admin\\Desktop\\MUSE 二期\\脚本\\Muse Prod 真实账号 临时使用.md"));
 
+			//http://localhost/  80
+			//https://localhost/  443
 			InputStream is = socket.getInputStream();
 			byte[] bytes = new byte[is.available()];
 			is.read(bytes);
