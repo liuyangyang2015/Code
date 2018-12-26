@@ -1,10 +1,8 @@
 package demo;
 
-import com.banma.aloha.model.pojo.ObjectiveListParam;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.map.SerializationConfig;
 import org.codehaus.jackson.schema.JsonSchema;
-import org.mockito.Mockito;
 
 import java.io.IOException;
 
@@ -29,9 +27,9 @@ public class TestJson {
 //        String str = getJsonSchema(ObjectiveListParam.class);
 //        System.out.println(str);
 
-        ObjectiveListParam objectiveListParam= Mockito.mock(ObjectiveListParam.class);
-        String str = new ObjectMapper().writeValueAsString(objectiveListParam);
-        System.out.println(str);
+//        ObjectiveListParam objectiveListParam= Mockito.mock(ObjectiveListParam.class);
+//        String str = new ObjectMapper().writeValueAsString(objectiveListParam);
+//        System.out.println(str);
     }
 
 }

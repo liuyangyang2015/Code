@@ -1,11 +1,8 @@
 package demo;
 
-import com.banma.aloha.model.pojo.ObjectiveScoreParam;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.databind.jsonschema.JsonSchema;
-import uk.co.jemos.podam.api.PodamFactory;
-import uk.co.jemos.podam.api.PodamFactoryImpl;
 
 import java.io.IOException;
 
@@ -22,10 +19,10 @@ public class TestJson2 {
 //        String str = getJsonSchema(ObjectiveListParam.class);
 //        System.out.println(str);
 
-        PodamFactory factory = new PodamFactoryImpl();
-        ObjectiveScoreParam myPojo = factory.manufacturePojo(ObjectiveScoreParam.class);
-        String str = new ObjectMapper().writeValueAsString(myPojo);
-        System.out.println(str);
+//        PodamFactory factory = new PodamFactoryImpl();
+//        ObjectiveScoreParam myPojo = factory.manufacturePojo(ObjectiveScoreParam.class);
+//        String str = new ObjectMapper().writeValueAsString(myPojo);
+//        System.out.println(str);
     }
 
     public static String getJsonSchema(Class clazz) throws IOException {

@@ -50,7 +50,8 @@ public class Server {
 					"Server: Apache/2.2.14 (Win32)\n" +
 					"Content-Length: 88\n" +
 					"Content-Type: text/html\n" +
-					"Connection: keep-alive";
+					"Connection: keep-alive \n" +
+					"\n";
 			String str3 = "<html>" +
 					"<body>" +
 					"<h1>Hello, World!</h1>" +
