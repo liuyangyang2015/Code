@@ -46,7 +46,7 @@ public class Server {
 			//5.发送数据
 			byte[] buf = new byte[1024];
 			int len = 0;
-			String str2 = "HTTP/1.1 200 OK\n" +
+			String str2 = "HTTP/1.1 200 OK1\n" +
 					"Server: Apache/2.2.14 (Win32)\n" +
 					"Content-Length: 88\n" +
 					"Content-Type: text/html\n" +
@@ -57,16 +57,12 @@ public class Server {
 					"<h1>Hello, World!</h1>" +
 					"</body>" +
 					"</html>";
+//			String httpResponse = "HTTP/1.1 200 OK\r\n\r\n" + today;
 			out.write(str2.getBytes());
-			out.write("\n".getBytes());
-
+			out.write(str3.getBytes());
 			while ((len = in.read(buf)) != -1) {
-				out.write(str3.getBytes());
-				out.write("hello destiny ! **==**".getBytes());
-//				out.write(buf, 0, len);
+				out.write(buf, 0, len);
 			}
-			out.write(str2.getBytes());
-			out.write("\n".getBytes());
 			//6.关闭资源
 			out.close();
 			in.close();
