@@ -4,12 +4,38 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>aloha-web1</artifactId>
-    <name>aloha-web1</name>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>code</artifactId>
+    <groupId>demo</groupId>
+    <name>code</name>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.3.0.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
     <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -21,8 +47,13 @@
             <version>2.3.5.RELEASE</version>
             <scope>test</scope>
         </dependency>
-        
-		<!-- https://mvnrepository.com/artifact/com.googlecode.xmemcached/xmemcached -->
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.13</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.googlecode.xmemcached/xmemcached -->
 		<!-- 
 		<dependency>
 		    <groupId>com.googlecode.xmemcached</groupId>
@@ -62,7 +93,7 @@
     </profiles>
 
     <build>
-        <finalName>aloha-web</finalName>
+        <finalName>code</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

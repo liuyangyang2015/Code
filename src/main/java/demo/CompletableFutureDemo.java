@@ -49,12 +49,12 @@ public class CompletableFutureDemo {
 //		System.out.println(greetingFuture.get());
 //		System.out.println("2");
 
-		CompletableFuture<Integer> future = CompletableFuture.supplyAsync(() -> {
-			int i = 1 / 0;
-			return 100;
-		});
-future.join();
-//		future.get();
-		System.out.println(future.get());
+//		CompletableFuture<Integer> future = CompletableFuture.supplyAsync(() -> {
+//			int i = 1 / 0;
+//			return 100;
+//		});
+//future.join();
+////		future.get();
+//		System.out.println(future.get());
 	}
 }
